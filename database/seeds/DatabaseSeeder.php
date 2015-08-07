@@ -45,9 +45,9 @@ class RasgoItemTableSeeder extends Seeder {
 
 		$rango2 = Rasgo::create([
 			'name' => 'SALUD',
-			'desc' => 'En este campo la motivación es cuidar, sanar y atender técnica o experimentalmente a nivel científico, a las personas y o los animales realizando actividades como ser: <br> medicina, enfermería, psicología, veterinaria, fisioterapia y afines, también en este campo la motivación es usar el cuerpo para determinada actividad, desarrollando destrezas corporales, cuidados del cuerpo, contacto con la naturaleza, vida al aire libre, espacios abiertos y similares.',
+			'desc' => 'En este campo la motivación es cuidar, sanar y atender técnica o experimentalmente a nivel científico, a las personas y o los animales realizando actividades como ser:  medicina, enfermería, psicología, veterinaria, fisioterapia y afines, también en este campo la motivación es usar el cuerpo para determinada actividad, desarrollando destrezas corporales, cuidados del cuerpo, contacto con la naturaleza, vida al aire libre, espacios abiertos y similares.',
 			'max' => 7,
-			'max_desc' => 'Disfrutas mucho del cuidado del cuerpo, el contacto con la naturaleza y de la atención específica del ser humano y de su bien estar psico- físico. Tu personalidad se caracteriza por una gran motivación social y de servicio hacia los demás, cuidas todo lo que concierne a tu entorno ambiental (ecosistema), animal o humano, tienes una gran capacidad de empatía para ponerte en el lugar de los otros y percibir sus necesidades. Esta forma de ser se adecua a las actividades concernientes a la salud del ser humano y del animal, en forma científica  o natural, o para las relacionadas con  la naturaleza y el deporte.',
+			'max_desc' => 'Disfrutas mucho del cuidado del cuerpo, el contacto con la naturaleza y de la atención específica del ser humano y de su bien estar psico-físico. Tu personalidad se caracteriza por una gran motivación social y de servicio hacia los demás, cuidas todo lo que concierne a tu entorno ambiental (ecosistema), animal o humano, tienes una gran capacidad de empatía para ponerte en el lugar de los otros y percibir sus necesidades. Esta forma de ser se adecua a las actividades concernientes a la salud del ser humano y del animal, en forma científica  o natural, o para las relacionadas con  la naturaleza y el deporte.',
 			'avg_desc' => 'Te motiva e impulsa cualquier actividad relacionada a la salud de las personas y del animal, para el logro de su bienestar por ello tu inclinación está rumbo a las profesiones dedicadas a la salud o bien para profesiones con relación a la naturaleza  y el deporte por aire, mar o tierra.',
 			'min_desc' => 'actividades Relacionadas a la salud o el bienestar de las personas porque te interesa todo lo relacionado al cuerpo, la naturaleza , la salud y el ecosistema en general, por ello si te enfocas mejor podrás definir en qué área te sentirás más satisfecho porque en cualquiera de estas áreas se requiere un esfuerzo físico y mucha actitud de servicio a los demás.'
 			]);
@@ -95,7 +95,7 @@ class RasgoItemTableSeeder extends Seeder {
 			'rasgo_id' => $rango1->id,
 			]);
 		Item::create([
-			'name' => 'Asistir a las personas carenciadas en momentos difíciles como inundaciones, viviendas, vestimentas, comida, etc.',
+			'name' => 'Asistir a las personas carenciadas en momentos difíciles como inundaciones, viviendas, vestimentas, comida',
 			'img' => 'social/item1-4.jpg',
 			'rasgo_id' => $rango1->id,
 			]);
@@ -112,7 +112,7 @@ class RasgoItemTableSeeder extends Seeder {
 			]);		
 
 		Item::create([
-			'name' => 'Sanar heridas, cuidar enfermos ',
+			'name' => 'Sanar heridas, cuidar enfermos',
 			'img' => 'salud/item2-1.jpg',
 			'rasgo_id' => $rango2->id,
 			]);
@@ -158,7 +158,7 @@ class RasgoItemTableSeeder extends Seeder {
 			'rasgo_id' => $rango3->id,
 			]);
 		Item::create([
-			'name' => 'Cuidar un jardín, cultivar y cosechar.',
+			'name' => 'Cuidar un jardín, cultivar y cosechar',
 			'img' => 'tecnologia/item3-3.jpg',
 			'rasgo_id' => $rango3->id,
 			]);
@@ -179,7 +179,7 @@ class RasgoItemTableSeeder extends Seeder {
 			]);
 
 		Item::create([
-			'name' => 'Escribir poesía, novelas, cuentos, blogs, canciones.',
+			'name' => 'Escribir poesía, novelas, cuentos, blogs, canciones',
 			'img' => 'arte/item4-1.jpg',
 			'rasgo_id' => $rango4->id,
 			]);
