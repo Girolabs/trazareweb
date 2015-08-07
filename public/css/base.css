@@ -30,7 +30,7 @@ h1 {   color: #2595AA; } h2,h3, h4 {   color: #DD024F; }
 
 .check {   width: 50px;   position: absolute;   bottom: 15px;   left: 70px;}
 
-  .pregunta {     border-radius: 5px;   border: solid; }
+  .pregunta {   height: 300px;   border-radius: 5px;   border: solid; }
 
   .pregunta.active, .pregunta.active p{
     border-color: #3fbd38;
