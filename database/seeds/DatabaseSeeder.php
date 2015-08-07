@@ -174,7 +174,7 @@ class RasgoItemTableSeeder extends Seeder {
 			]);
 		Item::create([
 			'name' => 'Investigar nuevas formas de comunicación tecnológica',
-			'img' => 'tecnologia/-3-6.png',
+			'img' => 'tecnologia/3-6.png',
 			'rasgo_id' => $rango3->id,
 			]);
 
