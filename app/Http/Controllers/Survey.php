@@ -53,8 +53,9 @@ class Survey extends Controller {
 			$rasgo->count = $rasgo->count;
 			array_push($result_array, $rasgo);
 		}
-		$this->send_mail($name, $email, $result_array);
 		$this->send_mail($name, "test@trazare.com.py", $result_array);
+		$this->send_mail($name, $email, $result_array);
+
 		
 
 		return new Response(null, 202);
